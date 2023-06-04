@@ -193,7 +193,7 @@ if __name__ == '__main__':
                 , unsafe_allow_html=True)
 
     # Some space here
-    st.write('###')
+    st.write('##')
 
     st.header("Quellen")
     st.write("Die Informationen auf dieser Webseite wurden aus folgenden Quellen zusammengetragen:")
