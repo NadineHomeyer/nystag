@@ -106,7 +106,7 @@ if __name__ == '__main__':
 
 
     # Some space here
-    st.write('###')
+    st.write('&nbsp;')
 
     # New columns for the next questions
     col3, col4= st.columns(2, gap="large")
@@ -151,7 +151,7 @@ if __name__ == '__main__':
                         +"Augenkrankheiten bestehen, können sie helfen, um diese zu korrieren.", unsafe_allow_html=True)
 
     # Some space here
-    st.write('##')
+    st.write('&nbsp;')
 
     # New columns for the next questions
     col5, col6= st.columns(2, gap="large")
@@ -193,7 +193,7 @@ if __name__ == '__main__':
                 , unsafe_allow_html=True)
 
     # Some space here
-    st.write('##')
+    st.write('&nbsp;')
 
     st.header("Quellen")
     st.write("Die Informationen auf dieser Webseite wurden aus folgenden Quellen zusammengetragen:")
