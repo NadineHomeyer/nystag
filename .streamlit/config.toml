@@ -1,0 +1,7 @@
+# This is a custom theme
+
+[theme]
+primaryColor="darkgrey"
+backgroundColor="#FEF5E7"
+textColor="#0c0c0c"
+secondaryBackgroundColor="#FAD7A0"
