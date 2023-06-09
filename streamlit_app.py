@@ -30,7 +30,7 @@ if __name__ == '__main__':
     st.header("#", anchor="Einführung")
     st.title('Hast Du je von :blue[Nystagmus] gehört? ... Nystag Was?')
 
-    st.markdown("Neugierig worum es sich hierbei handelt? Dann nimm Dir ein paar Mintuten Zeit für "
+    st.markdown("Neugierig worum es sich hierbei handelt? Dann nimm Dir ein paar Minuten Zeit für "
                 +"das nachfolgende Quiz. Aus den Antworten wirst Du etwas Neues lernen über das bis heute "
                 +"nur sehr wenige Personen etwas wissen. "
                 +"Versuche die richtige Auswahl zu treffen. Die richtige Antwort wird dann zusammen mit einer "
@@ -58,7 +58,7 @@ if __name__ == '__main__':
         elif frage1 == 'Rechengesetz der Algebra':
             st.write('**:red[FALSCH]** Versuche es noch einmal.')
         elif frage1 == 'Augenzittern':
-            st.write('**:green[RICHTIG]**   Als Nystystagmus bezeichnet man ein zittern der Augen.')
+            st.write('**:green[RICHTIG]**   Als Nystagmus bezeichnet man ein zittern der Augen.')
             st.write("Bei Betroffenen bewegen sich die Augen unbewusst, d.h. ohne dass man es möchte. " \
                     + "Es gibt Menschen mit Nystagmus, deren Augen sich horizontal, vertikal oder rotierend bewegen. "
                     + "Videos die zeigen, wie das aussieht, gibt es [hier](https://www.facebook.com/nystagmusnetzwerk/videos/).")
