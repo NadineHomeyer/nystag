@@ -65,7 +65,7 @@ if __name__ == '__main__':
            
             st.write("Das Augenzittern, welches Nystagmus genannt wird, führt häufig zu einem teilweise beschränkten Sehvermögen. "
                     +" Viele Betroffene haben eine Sehschäche oder eine Sehbehinderung. Nach deutschem Richtlinien hat man ab 30 % "
-                    +" Sehschärfe (mit Brille oder Kontaktlinsen eine Sehbehinderung. Alles darüber gilt als Sehschwäche. Andere "
+                    +" Sehschärfe (mit Brille oder Kontaktlinsen) eine Sehbehinderung. Alles darüber gilt als Sehschwäche. Andere "
                     + "Faktoren wie Gesichtsfeldeinschänkungen können jedoch zusätzlich berücksichtigt werden. Nur wenige der von "
                     + "Nystagmus betroffenen Personen können Auto fahren und die meisten Betroffenen stoßen auf Schwierigkeiten im "
                     + "täglichen Leben, sowohl in praktischer als auch in gesellschaftlicher Hinsicht. Außerdem kommt es häufig zu "
