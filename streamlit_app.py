@@ -242,4 +242,4 @@ if __name__ == '__main__':
 
     col7a, col7b, col7c = st.columns(3, gap="medium")
     with col7b:
-        st.markdown("<i>Author of webpage: Nadine Homeyer</i>")
+        st.markdown("*Author of webpage: Nadine Homeyer*")
