@@ -64,15 +64,17 @@ if __name__ == '__main__':
                     + "Videos die zeigen, wie das aussieht, gibt es [hier](https://www.facebook.com/nystagmusnetzwerk/videos/).")
            
             st.write("Das Augenzittern, welches Nystagmus genannt wird, führt häufig zu einem teilweise beschränkten Sehvermögen. "
-                    +" Viele Betroffene sind als sehbehindert, manche sogar als blind registriert. Nur wenige können Auto fahren "
-                    +" und die meisten der Betroffenen stoßen auf Schwierigkeiten im täglichen Leben, sowohl in praktischer als auch "
-                    +" in gesellschaftlicher Hinsicht. Außerdem kommt es häufig zu Problemen in der Schule oder im Arbeitsleben.")
+                    +" Viele Betroffene haben eine Sehschäche oder eine Sehbehinderung. Nach deutschem Richtlinien hat man ab 30 % "
+                    +" Sehschärfe (mit Brille oder Kontaktlinsen eine Sehbehinderung. Alles darüber gilt als Sehschwäche. Andere "
+                    + "Faktoren wie Gesichtsfeldeinschänkungen können jedoch zusätzlich berücksichtigt werden. Nur wenige der von "
+                    + "Nystagmus betroffenen Personen können Auto fahren und die meisten Betroffenen stoßen auf Schwierigkeiten im "
+                    + "täglichen Leben, sowohl in praktischer als auch in gesellschaftlicher Hinsicht. Außerdem kommt es häufig zu "
+                    + "Problemen in der Schule oder im Arbeitsleben.")
         else:
             pass
 
     with col2:
         if frage1 == "Augenzittern":
-            
             # Question 2
             st.write("**2. Wodurch kann Nystagmus auftreten?**")
             option2a = st.checkbox("Angeboren - Erblich bedingt")
@@ -200,6 +202,7 @@ if __name__ == '__main__':
     st.write("[1] Faktenblatt (deutsche Übersetzung von [2]), Nystagmus Netzwerk e.V., [Webseite](http://www.nystagmusnetzwerk.de), Kontakt: info@nystagmusnetzwerk.de")
     st.write("[2] Fact Sheet, Nystagmus Network 2014, [Webseite](https://www.nystagmusnet.org), Kontakt: info@nystagmusnet.org")
     st.write("[3] Inernetseite mit allgemeinen Informationen des Nystagmus Netzwerk e.V. https://nystagmusnetzwerk.de/allgemeine-infos/")
+    st.write("[4] 10 Tipps und Fakten zu Nystagmus, Nystagmus Netzwerk e.V. 2022, [Link](https://nystagmusnetzwerk.de/wp-content/uploads/2022/06/Broschuere-10-Tipps-und-10-Fakten-zu-Nystagmus.pdf)")
 
     st.header("Danksagung")
     st.write("Die Erstellung dieser Webseite wäre nicht möglich gewesen ohne die von folgenden Institutionen bereitgestellten Informationen ")
