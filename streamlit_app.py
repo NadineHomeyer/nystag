@@ -36,7 +36,7 @@ if __name__ == '__main__':
                 +"Versuche die richtige Auswahl zu treffen. Die richtige Antwort wird dann zusammen mit einer "
                 +"Erläuterung angezeigt. "
                 +"Feedback, wie Dir das Quiz gefallen hat und was verbessert werden kann, "
-                +"gerne an nystag@gmail.com. **Viel Spaß!**", unsafe_allow_html=True)
+                +"gerne an nystag_quiz@gmail.com. **Viel Spaß!**", unsafe_allow_html=True)
 
     # Variable definitions
     frage1 = ""
@@ -118,7 +118,7 @@ if __name__ == '__main__':
             col3a, col3b, col3c = st.columns([0.5,10,2])
             with col3b:
                 # Question 3
-                frage3= st.slider("", 0, 1000, value=0, step=100)
+                frage3= st.slider("", 0, 1000, value=0, step=50)
         
                 if frage3 == 0:
                     st.write("Regler nach rechts verschieben.")
@@ -239,3 +239,7 @@ if __name__ == '__main__':
     st.markdown("""<style>.stSlider p {font-size:120%; !important; }</style>""", unsafe_allow_html=True)
     # Styling multiselect widget(s)
     st.markdown("""<style>.stMultiSelect p {font-size:120%; !important; }</style>""", unsafe_allow_html=True)
+
+    col7a, col7b, col7c = st.columns(3, gap="medium")
+    with col7b:
+        st.write("Author: Nadine Homeyer")
