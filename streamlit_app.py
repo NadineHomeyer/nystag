@@ -144,7 +144,7 @@ if __name__ == '__main__':
                     st.markdown("""<font size="6">**:green[RICHTIG]**</font>""", unsafe_allow_html=True)
 
             with col4b:
-                st.image(image="./brille.png", use_column_width="auto", width="50")
+                st.image(image="./brille.png", use_column_width="None", width="50")
 
             if frage4 == "Ja" or frage4 == "Nein":
                 st.write("Es wird häufig von Laien angenommen, dass eine Brille gegen Nystagmus helfen würde, da viele Menschen mit Nystagmus "
