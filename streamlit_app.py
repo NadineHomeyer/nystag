@@ -200,7 +200,7 @@ if __name__ == '__main__':
     st.header("Quellen")
     st.write("Die Informationen auf dieser Webseite wurden aus folgenden Quellen zusammengetragen:")
     st.write("[1] Faktenblatt (deutsche Übersetzung von [2]), Nystagmus Netzwerk e.V., [Webseite](http://www.nystagmusnetzwerk.de), Kontakt: info@nystagmusnetzwerk.de")
-    st.write("[2] Fact Sheet, Nystagmus Network 2014, [Webseite](https://www.nystagmusnet.org), Kontakt: info@nystagmusnet.org")
+    st.write("[2] Fact Sheet, Nystagmus Network 2014, [Webseite](https://nystagmusnetwork.org), Kontakt: info@nystagmusnet.org")
     st.write("[3] Inernetseite mit allgemeinen Informationen des Nystagmus Netzwerk e.V. https://nystagmusnetzwerk.de/allgemeine-infos/")
     st.write("[4] 10 Tipps und Fakten zu Nystagmus, Nystagmus Netzwerk e.V. 2022, [Link](https://nystagmusnetzwerk.de/wp-content/uploads/2022/06/Broschuere-10-Tipps-und-10-Fakten-zu-Nystagmus.pdf)")
 
