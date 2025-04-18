@@ -228,7 +228,7 @@ if __name__ == '__main__':
     
     st.header("Links")
     st.markdown("""
-    - Nystagmus Network Großbritannien: http://www.nystagmusnet.org
+    - Nystagmus Network Großbritannien: https://nystagmusnetwork.org
     - Nystagmus Netzwerk e.V.: http://www.nystagmusnetzwerk.de
     - Facebook Seite des Nystagmus Netzwerk e.V.: https://www.facebook.com/nystagmusnetzwerk
     - ANN: American Nystagmus Network: https://nystagmus.org
